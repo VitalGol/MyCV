@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/MyCV",
-  assetPrefix: "/MyCV/",
+  distDir: "out",
+  // basePath: "/MyCV",
+  // assetPrefix: "/MyCV/",
   // images: {
   //   unoptimized: true, // нужно, если ты используешь <Image>
   // },
