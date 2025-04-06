@@ -6,8 +6,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // нужно, если ты используешь <Image>
   },
+  assetPrefix: "/MyCV/",
   // distDir: "out",
-  // assetPrefix: "/MyCV/",
   // Укажи basePath, если деплоишь в подкаталог (например: /my-project)
 };
 
